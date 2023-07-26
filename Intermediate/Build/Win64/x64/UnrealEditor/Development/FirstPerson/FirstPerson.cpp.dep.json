@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealengine\\dev\\csharpforunrealengine5\\csharpexamples\\firstperson\\source\\firstperson\\firstperson.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealengine\\dev\\csharpforunrealengine5\\csharpexamples\\firstperson\\intermediate\\build\\win64\\x64\\firstpersoneditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "c:\\unrealengine\\dev\\csharpforunrealengine5\\csharpexamples\\firstperson\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstperson\\definitions.firstperson.h",
+            "c:\\unrealengine\\dev\\csharpforunrealengine5\\csharpexamples\\firstperson\\source\\firstperson\\firstperson.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

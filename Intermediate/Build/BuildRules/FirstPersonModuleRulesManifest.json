@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Source\\FirstPerson\\FirstPerson.Build.cs",
+		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Source\\FirstPerson.Target.cs",
+		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Source\\FirstPersonEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}
