@@ -1,7 +1,7 @@
-C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Source\FirstPerson\Game.Generated\CSharpProjectile.cpp
+C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Source\FirstPerson\Game.Generated\CSharpProjectile.cpp
 /I .
-/I C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\UnrealEditor\Inc\FirstPerson\UHT
-/I C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Source
+/I C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\UnrealEditor\Inc\FirstPerson\UHT
+/I C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Source
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I Runtime
@@ -290,12 +290,12 @@ C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Source\Fir
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\FirstPersonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\Definitions.FirstPerson.h"
-/Yu"C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\FirstPersonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\FirstPersonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\CSharpProjectile.cpp.obj"
-/sourceDependencies C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\CSharpProjectile.cpp.dep.json
+/FI"C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\FirstPersonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\Definitions.FirstPerson.h"
+/Yu"C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\FirstPersonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\FirstPersonEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\CSharpProjectile.cpp.obj"
+/sourceDependencies C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\CSharpProjectile.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

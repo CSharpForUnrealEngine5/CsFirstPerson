@@ -57,8 +57,8 @@ FRotator Rotation=Controller->GetControlRotation();
 FRotator YawRotation=FRotator(0,Rotation.Yaw,0);
 FVector ForwardDirection=FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 FVector RightDirection=FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-AddMovementInput(ForwardDirection,MovementVector.Y);
-AddMovementInput(RightDirection,MovementVector.X);
+AddMovementInput(ForwardDirection,(float)(MovementVector.Y),false);
+AddMovementInput(RightDirection,(float)(MovementVector.X),false);
 }
 }
 void ACSharpCharacter::Look(FInputActionValue Value)
@@ -66,8 +66,8 @@ void ACSharpCharacter::Look(FInputActionValue Value)
 FVector2D LookAxisVector=Value.Get<FVector2D>();
 if (Controller!=nullptr)
 {
-AddControllerYawInput(LookAxisVector.X);
-AddControllerPitchInput(LookAxisVector.Y);
+AddControllerYawInput((float)(LookAxisVector.X));
+AddControllerPitchInput((float)(LookAxisVector.Y));
 }
 }
 void ACSharpCharacter::SetHasRifle(bool bNewHasRifle)

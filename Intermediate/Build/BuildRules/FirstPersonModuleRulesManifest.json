@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Source\\FirstPerson\\FirstPerson.Build.cs",
+		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Plugins\\CsToCpp\\Source\\CsToCpp\\CsToCpp.Build.cs",
 		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Source\\FirstPerson.Target.cs",
 		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsFirstPerson\\Source\\FirstPersonEditor.Target.cs"
 	],

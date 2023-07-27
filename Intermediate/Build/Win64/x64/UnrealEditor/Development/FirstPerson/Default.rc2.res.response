@@ -71,5 +71,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=FirstPerson
-/fo "C:\UnrealEngine\Dev\CSharpForUnrealEngine5\CSharpExamples\FirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\Default.rc2.res"
+/fo "C:\UnrealEngine\CSharpForUnrealEngine5\CsFirstPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPerson\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

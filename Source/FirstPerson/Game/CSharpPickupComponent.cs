@@ -2,7 +2,6 @@
 
 using CSharpToCpp.Utilities;
 using GameFramework;
-using System;
 
 // Declaration of the delegate that will be called when someone picks this up
 // The character picking this up is the parameter sent with the notification

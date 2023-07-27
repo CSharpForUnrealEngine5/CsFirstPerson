@@ -113,8 +113,8 @@ public class ACSharpCharacter : ACharacter
             FVector RightDirection = new FRotationMatrix(YawRotation).GetUnitAxis(EAxis.Y);
 
             // add movement 
-            AddMovementInput(ForwardDirection, MovementVector.Y);
-            AddMovementInput(RightDirection, MovementVector.X);
+            AddMovementInput(ForwardDirection, (float) MovementVector.Y, false);
+            AddMovementInput(RightDirection, (float) MovementVector.X, false);
         }
     }
 
@@ -126,8 +126,8 @@ public class ACSharpCharacter : ACharacter
         if (Controller != null)
         {
             // add yaw and pitch input to controller
-            AddControllerYawInput(LookAxisVector.X);
-            AddControllerPitchInput(LookAxisVector.Y);
+            AddControllerYawInput((float)LookAxisVector.X);
+            AddControllerPitchInput((float)LookAxisVector.Y);
         }
     }
 

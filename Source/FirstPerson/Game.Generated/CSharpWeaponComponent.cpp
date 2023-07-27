@@ -29,14 +29,14 @@ World->SpawnActor<ACSharpProjectile>(ProjectileClass,SpawnLocation,SpawnRotation
 }
 if (FireSound!=nullptr)
 {
-UGameplayStatics::PlaySoundAtLocation(this,FireSound,Character->GetActorLocation());
+UGameplayStatics::PlaySoundAtLocation(this,FireSound,Character->GetActorLocation(),FRotator::ZeroRotator,1.0f,1.0f,0.0f,nullptr,nullptr,nullptr,nullptr);
 }
 if (FireAnimation!=nullptr)
 {
-UAnimInstance* AnimInstance=Character->GetMesh1P()->GetAnimInstance();
+UAnimInstance* AnimInstance=(UAnimInstance*)(Character->GetMesh1P()->GetAnimInstance());
 if (AnimInstance!=nullptr)
 {
-AnimInstance->Montage_Play(FireAnimation,1.0f);
+AnimInstance->Montage_Play(FireAnimation,1.0f,EMontagePlayReturnType::MontageLength,0,true);
 }
 }
 }

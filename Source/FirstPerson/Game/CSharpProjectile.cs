@@ -44,9 +44,9 @@ public class ACSharpProjectile : AActor
         [CppConstRef]FHitResult Hit)
     {
         // Only add impulse and destroy projectile if we hit a physics
-        if ((OtherActor != null) && (OtherActor != this) && (OtherComp != null) && OtherComp.IsSimulatingPhysics())
+        if ((OtherActor != null) && (OtherActor != this) && (OtherComp != null) && OtherComp.IsSimulatingPhysics(""))
         {
-            OtherComp.AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
+            OtherComp.AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation(),"");
 
             Destroy();
         }

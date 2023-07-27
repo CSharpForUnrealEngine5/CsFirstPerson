@@ -9,6 +9,7 @@
 #include "InputMappingContext.h"
 #include "InputAction.h"
 #include "GameFramework/PlayerController.h"
+#include "Engine/World.h"
 #include "Animation/AnimInstance.h"
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"

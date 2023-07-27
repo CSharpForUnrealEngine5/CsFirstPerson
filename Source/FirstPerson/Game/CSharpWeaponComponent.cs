@@ -60,16 +60,16 @@ public class UCSharpWeaponComponent : USkeletalMeshComponent
         }
         if (FireSound != null)
         {
-            UGameplayStatics.PlaySoundAtLocation(this, FireSound, Character.GetActorLocation());
+            UGameplayStatics.PlaySoundAtLocation(this, FireSound, Character.GetActorLocation(),FRotator.ZeroRotator, 1.0f, 1.0f, 0.0f, null, null,null,null);
         }
         // Try and play a firing animation if specified
         if (FireAnimation != null)
         {
             // Get the animation object for the arms mesh
-            UAnimInstance AnimInstance = Character.GetMesh1P().GetAnimInstance();
+            UAnimInstance AnimInstance = (UAnimInstance) Character.GetMesh1P().GetAnimInstance();
             if (AnimInstance != null)
             {
-                AnimInstance.Montage_Play(FireAnimation, 1.0f);
+                AnimInstance.Montage_Play(FireAnimation, 1.0f,EMontagePlayReturnType.MontageLength, 0, true);
             }
         }
 
